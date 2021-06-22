@@ -35,8 +35,8 @@ const questions = [
         message: 'What are the test instructions?'
     },  
     {
-        type: 'checkbox',
-        name: 'licence',
+        type: 'list',
+        name: 'license',
         message: 'What license will you use?',
         choices: ['BSD', 'Boost', 'Apache']
     },  
@@ -64,11 +64,9 @@ function writeToFile(answers) {
 function init() {
     inquirer.prompt(questions)
     .then(answers => {
-        console.log(answers);
     return writeToFile(answers);
     }) 
 }
-//generateMarkdown();
 
 
 // Function call to initialize app
