@@ -27,6 +27,7 @@ function generateMarkdown(answers) {
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
+  * [Test](#test)
   * [License](#license)
   * [Contributing](#contributing)
   * [Questions](#questions)
@@ -38,6 +39,10 @@ function generateMarkdown(answers) {
   ## Usage
 
   ${answers.usage}
+
+  ## Test
+
+  ${answers.test}
 
   ## License
 
