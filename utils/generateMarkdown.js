@@ -18,6 +18,7 @@ function generateMarkdown(answers) {
   * [License](#license)
   * [Contributing](#contributing)
   * [Questions](#questions)
+  * [Demo](#demo)
   
   ## Installation
 
@@ -47,9 +48,11 @@ function generateMarkdown(answers) {
 
   Email: <${answers.email}>
 
+  ## Demo
+
   Want to see the way this generator works?
 
-  Demo: [Videodemo](https://drive.google.com/file/d/1m-Nql-CbJ9-biidbRAu-BMA2is_CpHyV/view)
+  [Demo](https://drive.google.com/file/d/1m-Nql-CbJ9-biidbRAu-BMA2is_CpHyV/view)
    
   `;
 }
