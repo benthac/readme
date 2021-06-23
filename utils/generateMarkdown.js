@@ -46,6 +46,10 @@ function generateMarkdown(answers) {
   Github: [Github](https://www.github.com/${answers.github})
 
   Email: <${answers.email}>
+
+  Want to see the way this generator works?
+
+  Demo: [Videodemo](https://drive.google.com/file/d/1m-Nql-CbJ9-biidbRAu-BMA2is_CpHyV/view)
    
   `;
 }
